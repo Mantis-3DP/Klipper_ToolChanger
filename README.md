@@ -84,7 +84,7 @@ This plugin assumes that you installed Klipper into your home directory (usually
 1) Clone this repo into your home directory where Klipper is installed:
 ```
 cd ~
-git clone https://github.com/Mantis-3DP/Klipper_ToolChanger_Addon.git
+git clone https://github.com/Mantis-3DP/Klipper_ToolChanger.git
 ```
 
 2) Edit `moonraker.conf` by adding the following entry:
@@ -92,7 +92,7 @@ git clone https://github.com/Mantis-3DP/Klipper_ToolChanger_Addon.git
 [update_manager client klipper_toolchanger]
 type: git_repo
 path: ~/Klipper_ToolChanger
-origin: https://github.com/Mantis-3DP/Klipper_ToolChanger_Addon.git
+origin: https://github.com/Mantis-3DP/Klipper_ToolChanger.git
 install_script: install.sh
 is_system_service: False
 ```
