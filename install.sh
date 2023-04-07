@@ -1,6 +1,6 @@
 #!/bin/bash
 # Constants
-EXTENSION_NAME="klipper_toolchanger"
+EXTENSION_NAME="klipper_toolchanger_addon"
 
 # Force script to exit if an error occurs
 set -e
