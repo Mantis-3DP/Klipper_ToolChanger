@@ -8,7 +8,7 @@ This are  example files with macros to get you started.
 The files should be added to your printer.cfg like:
 
 ```
-[include custom/tools.cfg]
+[include custom/tools_macro.cfg]
 [include custom/tools.cfg]
 ```
 
